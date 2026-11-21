@@ -1,0 +1,38 @@
+Respuestas Cuestionario
+
+Evaluación: opción múltiple (1/2):
+1.- b) git add
+2.- c) distribuido
+3.- b) Linus Torvalds, 2005.
+4.- c) Descarga sin fusionar
+
+Evaluación: opción múltiple (2/2)
+5.- git revert
+6.- nombre por defecto del remoto
+7.- Una copia del repositorio en tu cuenta de GitHub.
+8.- Un conflicto de fusión
+
+Evaluación: preguntas abiertas
+respuesta de pregunta:
+1.-Podemos decir que, en orden, cuando hablamos de preparar una comida sería:
+Vas al supermercado a comprar los ingredientes, decides qué comprar; el momento en que ya estás pagando tu selección de productos.
+
+2.-Cuando quiero guardar un cambio temporalmente y
+ pasarme a otra rama sin tener que hacer el commit. 
+
+3.-Creo un fork en GitHub para duplicar el repositorio, creo una rama para el arreglo,
+ lo corrijo de forma independiente y luego subo la rama y la incorporo al repositorio original.
+
+4.-Porque deja expuesta la contraseña y procedería quitando la contraseña y
+ cambiando la ubicación del .env al .gitignore.
+
+5.-Usaría git reevert, ya que crea un nuevo commit anulando el anterior.
+
+Ejercicio de diagnóstico
+orden:
+git pull
+git switch -c feat/x
+editar archivos
+git add .
+git commit -m "..."
+git push
